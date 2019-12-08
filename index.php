@@ -14,15 +14,15 @@
     <script src="//code.jivosite.com/widget.js" data-jv-id="dypOdeXGG0" async></script>
 </head>
 
-<script language="JavaScript" src="funcoes.js"></script>
+<script language="JavaScript" src="_javascript/funcoes.js"></script>
 
 <body>
     <header id="head">
         <nav id="menu">
             <ul>
                 <li onmouseover="chanceImg('_images/img-home.jpg')" onmouseout="chanceImg('_images/img-home.jpg')"><a href="index.php">Home</a> </li>
-                <li onmouseover="chanceImg('_images/img-user.png')" onmouseout="chanceImg('_images/img-home.jpg')"><a href="users.php">Usuários</a></li>
-                <li onmouseover="chanceImg('_images/img-prod.png')" onmouseout="chanceImg('_images/img-home.jpg')"><a href="products.php">Produtos</a></li>
+                <li onmouseover="chanceImg('_images/img-user.png')" onmouseout="chanceImg('_images/img-home.jpg')"><a href="_user/users.php">Usuários</a></li>
+                <li onmouseover="chanceImg('_images/img-prod.png')" onmouseout="chanceImg('_images/img-home.jpg')"><a href="_product/products.php">Produtos</a></li>
             </ul>
         </nav>
 
