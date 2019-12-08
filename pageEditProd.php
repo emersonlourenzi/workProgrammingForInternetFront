@@ -18,7 +18,7 @@ $product = json_decode(curl_exec($ch));
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css"/>
     <link rel="stylesheet" type="text/css" href="_css/style.css">
     <link rel="stylesheet" type="text/css" href="_css/products.css"/>
-    <script src="//code.jivosite.com/widget.js" data-jv-id="xYlPFFnSe5" async></script>
+    <script src="//code.jivosite.com/widget.js" data-jv-id="dypOdeXGG0" async></script>
 </head>
 
 <script language="JavaScript" src="funcoes.js"></script>
