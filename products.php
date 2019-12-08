@@ -35,7 +35,7 @@
 
         <nav id="aut">
             <ul>
-                <li><a href="#">Filipe Aguiar | Felipe Bertodo</a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/emerson-lourenzi/">Emerson Lourenzi</a></li>
             </ul>
         </nav>
 
