@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+form {
+    width: 1000px;
+    margin: auto;
+}
+
+input, textarea {
+
+}
+
+input:hover, textarea:hover {
+    background-color: #dddddd;
+}
+
+input#cNameProd, input#cName, input#cDescProd {
+    margin: 10px;
+}
+
+input#cIdProd {
+    margin: 10px;
+}
+
+input#cBtnSave {
+    position: relative;
+    margin: 10px 0px 10px 10px;
+}
+
+textarea#cDescProd {
+    margin-left: 47px;
+}
+
+textarea#cDesc {
+    margin-left: 47px;
+}
+
+legend {
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px;
+}
+
+fieldset {
+    border-color: black;
+    margin: 20px;
+}
+
+form label {
+    padding: 10px;
+    margin: 10px;
+}
+
+input#btnDelete {
+    position: absolute;
+    left: 450px;
+    top: 265px;
+}
+
+input#btnEdit {
+    position: absolute;
+    left: 380px;
+    top: 265px;
+}
+
+input#cBtnRet {
+    position: absolute;
+    top: 110px;
+    right: 110px;
+}
+
+input#cBtnRet2 {
+    position: absolute;
+    top: 235px;
+    right: 115px;
+}

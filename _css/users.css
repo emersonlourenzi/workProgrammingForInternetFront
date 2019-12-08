@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+form {
+    width: 890px;
+    margin: auto;
+}
+
+input, textarea {
+
+}
+
+input:hover, textarea:hover {
+    background-color: #dddddd;
+}
+
+input#cName, input#cEmail, input#cPass {
+    margin: 10px 30px 10px 10px;
+}
+
+input#cIdUser {
+    margin: 10px 0px 10px 10px;
+}
+
+input#cBtnSave {
+    position: relative;
+    margin: 10px;
+}
+
+legend {
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px;
+}
+
+fieldset {
+    border-color: black;
+    margin: 20px;
+}
+
+form label {
+    padding: 10px;
+    margin: 10px;
+}
+
+input#btnDelete {
+    position: absolute;
+    left: 450px;
+    top: 260px;
+}
+
+input#btnEdit {
+    position: absolute;
+    left: 380px;
+    top: 260px;
+}
+
+input#cBtnRet {
+    position: absolute;
+    top: 110px;
+    right: 170px;
+}
+
+input#cBtnRet2 {
+    position: absolute;
+    top: 230px;
+    right: 160px;
+}
