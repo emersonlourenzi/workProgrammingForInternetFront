@@ -30,6 +30,7 @@
                 <li onmouseover="chanceImg('../_images/img-home.jpg')" onmouseout="chanceImg('../_images/img-prod.png')"><a href="../index.php">Home</a> </li>
                 <li onmouseover="chanceImg('../_images/img-user.png')" onmouseout="chanceImg('../_images/img-prod.png')"><a href="../_user/users.php">Usuários</a></li>
                 <li onmouseover="chanceImg('../_images/img-prod.png')" onmouseout="chanceImg('../_images/img-prod.png')"><a href="products.php">Produtos</a></li>
+                <li onmouseover="chanceImg('../_images/img-client.jpg')" onmouseout="chanceImg('../_images/img-prod.png')"><a href="../_client/clients.php">Clientes</a></li>
             </ul>
         </nav>
 
@@ -67,15 +68,13 @@
                 <p><label for="cName">Nome Produto:</label><input required type="text" name="tName" id="cName" size="115" maxlength="15" placeholder="Digite o nome do produto"/></p>
                 <p><label for="cDesc">Descrição:</label><textarea required name="tDesc" id="cDesc" cols="117" rows="5" maxlength="40" placeholder="Descreva informações do produto" ></textarea></p>
                 <input type="image" name="tBtnSave" id="cBtnSave" src="../_images/btn-save.png" height="30px"/>
-<!--                <input type="image" name="tBtnDelete" id="btnDelete" src="_images/delete-user.jpg" height="40px" formaction="pageDeleteProd.php"/>-->
-<!--                <input type="image" name="tBtnEdit" id="btnEdit" src="_images/edit-user.jpg" height="40px" formaction="pageEditProd.php"/>-->
             </fieldset>
         </form>
 
         <form>
-            <input type="image" name="tBtnDelete" id="btnDelete" src="../_images/delete-user.jpg" height="40px"
+            <input type="image" name="tBtnDelete" id="btnDelete" src="../_images/delete-prod.png" height="40px"
                    formaction="pageDeleteProd.php"/>
-            <input type="image" name="tBtnEdit" id="btnEdit" src="../_images/edit-user.jpg" height="40px"
+            <input type="image" name="tBtnEdit" id="btnEdit" src="../_images/edit-prod.png" height="40px"
                    formaction="pageEditProd.php"/>
         </form>
 

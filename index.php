@@ -23,7 +23,7 @@
                 <li onmouseover="chanceImg('_images/img-home.jpg')" onmouseout="chanceImg('_images/img-home.jpg')"><a href="index.php">Home</a> </li>
                 <li onmouseover="chanceImg('_images/img-user.png')" onmouseout="chanceImg('_images/img-home.jpg')"><a href="_user/users.php">Usuários</a></li>
                 <li onmouseover="chanceImg('_images/img-prod.png')" onmouseout="chanceImg('_images/img-home.jpg')"><a href="_product/products.php">Produtos</a></li>
-                <li onmouseover="chanceImg('_images/img-client.jpg')" onmouseout="chanceImg('_images/img-home.jpg')"><a href="_product/clients.php">Clientes</a></li>
+                <li onmouseover="chanceImg('_images/img-client.jpg')" onmouseout="chanceImg('_images/img-home.jpg')"><a href="_client/clients.php">Clientes</a></li>
             </ul>
         </nav>
 

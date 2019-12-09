@@ -27,6 +27,7 @@
                 <li onmouseover="chanceImg('../_images/img-home.jpg')" onmouseout="chanceImg('../_images/img-user.png')"><a href="../index.php">Home</a> </li>
                 <li onmouseover="chanceImg('../_images/img-user.png')" onmouseout="chanceImg('../_images/img-user.png')"><a href="users.php">Usuários</a></li>
                 <li onmouseover="chanceImg('../_images/img-prod.png')" onmouseout="chanceImg('../_images/img-user.png')"><a href="../_product/products.php">Produtos</a></li>
+                <li onmouseover="chanceImg('../_images/img-client.jpg')" onmouseout="chanceImg('../_images/img-user.png')"><a href="../_client/clients.php">Clientes</a></li>
             </ul>
         </nav>
 
@@ -65,8 +66,6 @@
                 <p><label for="cEmail">Email: </label><input required type="email" name="tEmail" id="cEmail" size="115" maxlength="95" placeholder="Digite um email válido"/></p>
                 <p><label for="cPass">Senha:</label><input required type="password" name="tPass" id="cPass" size="115" maxlength="20" placeholder="Digite uma senha segura de até 20 caracteres"/></p>
                 <input type="image" name="tBtnSave" id="cBtnSave" src="../_images/btn-save.png" height="30px"/>
-<!--                <input type="image" name="tBtnDelete" id="btnDelete" src="_images/delete-user.jpg" height="40px" formaction="pageDeleteUser.php"/>-->
-<!--                <input type="image" name="tBtnEdit" id="btnEdit" src="_images/edit-user.jpg" height="40px" formaction="pageEditUser.php"/>-->
             </fieldset>
         </form>
 
