@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+ul#photos {
+    width: 700px;
+    margin: 0px auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#photos li {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    transition: 1s;
+    -webkit-transition: all 0.6s ease-in;
+}
+
+ul#photos li:hover {
+    -webkit-transform: scale(1.5);
+}
+
+ul#photos li span {
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #000000;
+    background-color: rgba(0,0,0,.2);
+    font-size: 20px;
+    padding: 5px;
+    transition-opacity: 1s;
+}
+
+ul#photos li:hover span {
+    opacity: 1;
+    transition-opacity: 1s;
+}
+
+ul#photos li#photo01 {
+    background: url("../_images/witcher.jpg") no-repeat 50% 50% white;
+}
+
+ul#photos li#photo01:hover {
+    background-position: 0px 0px;
+    background-size: 100%;
+}
+
+ul#photos li#photo02 {
+    background: url("../_images/thelast.png") no-repeat 50% 50% white;
+}
+
+ul#photos li#photo02:hover {
+    background-position: 0px 0px;
+    background-size: 100%;
+}
+
+ul#photos li#photo03 {
+    background: url("../_images/thelast2.jpg") no-repeat 50% 50% white;
+}
+
+ul#photos li#photo03:hover {
+    background-position: 0px 0px;
+    background-size: 100%;
+}
+
+ul#photos li#photo04 {
+    background: url("../_images/shadow.png") no-repeat 50% 50% white;
+}
+
+ul#photos li#photo04:hover {
+    background-position: 0px 0px;
+    background-size: 100%;
+}
+
+ul#photos li#photo05 {
+    background: url("../_images/pes.jpg") no-repeat 50% 50% white;
+}
+
+ul#photos li#photo05:hover {
+    background-position: 0px 0px;
+    background-size: 100%;
+}
+
+ul#photos li#photo06 {
+    background: url("../_images/fifa20.png") no-repeat 50% 50% white;
+}
+
+ul#photos li#photo06:hover {
+    background-position: 0px 0px;
+    background-size: 100%;
+}
+
+ul#photos li#photo07 {
+    background: url("../_images/conan.jpg") no-repeat 50% 50% white;
+}
+
+ul#photos li#photo07:hover {
+    background-position: 0px 0px;
+    background-size: 100%;
+}
+
+ul#photos li#photo08 {
+    background: url("../_images/assassins.jpg") no-repeat 50% 50% white;
+}
+
+ul#photos li#photo08:hover {
+    background-position: 0px 0px;
+    background-size: 100%;
+}

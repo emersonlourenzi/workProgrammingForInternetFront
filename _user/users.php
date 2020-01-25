@@ -24,7 +24,7 @@
     <header id="head">
         <nav id="menu">
             <ul>
-                <li onmouseover="chanceImg('../_images/img-home.jpg')" onmouseout="chanceImg('../_images/img-user.png')"><a href="../index.php">Home</a> </li>
+                <li onmouseover="chanceImg('../_images/img-home.jpg')" onmouseout="chanceImg('../_images/img-user.png')"><a href="../home.php">Home</a> </li>
                 <li onmouseover="chanceImg('../_images/img-user.png')" onmouseout="chanceImg('../_images/img-user.png')"><a href="users.php">Usuários</a></li>
                 <li onmouseover="chanceImg('../_images/img-prod.png')" onmouseout="chanceImg('../_images/img-user.png')"><a href="../_product/products.php">Produtos</a></li>
                 <li onmouseover="chanceImg('../_images/img-client.jpg')" onmouseout="chanceImg('../_images/img-user.png')"><a href="../_client/clients.php">Clientes</a></li>
@@ -45,10 +45,10 @@
         <div class="hero-body">
             <div class="container has-text-centered">
                 <p class="title">
-                    <a href="../index.php">Work Programming Internet II</a>
+                    <a href="../home.php">Work Programming Internet II</a>
                 </p>
                 <p class="subtitle">
-                    <a href="../index.php">Consumo da API Programming Internet (Java/Spring/JSON/MongoDB) com PHP/HTML/CSS</a>
+                    <a href="../home.php">Consumo da API Programming Internet (Java/Spring/JSON/MongoDB) com PHP/HTML/CSS</a>
                 </p>
             </div>
         </div>

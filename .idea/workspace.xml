@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb95af29-e4e3-4e42-9b74-08a3ab0e8ee1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_client/pageDeleteClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_client/pageEditClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_client/saveClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_css/clients.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_images/delete-prod.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_images/edit-prod.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_images/btn-login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authenticationHome.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_client/clients.php" beforeDir="false" afterPath="$PROJECT_DIR$/_client/clients.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/_css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_product/pageDeleteProd.php" beforeDir="false" afterPath="$PROJECT_DIR$/_product/pageDeleteProd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_product/pageEditProd.php" beforeDir="false" afterPath="$PROJECT_DIR$/_product/pageEditProd.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_product/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/_product/products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_user/pageDeleteUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/_user/pageDeleteUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_user/pageEditUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/_user/pageEditUser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_user/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/_user/users.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -115,7 +118,9 @@
       <workItem from="1575763008050" duration="2704000" />
       <workItem from="1575841485417" duration="2162000" />
       <workItem from="1575903879221" duration="1028000" />
-      <workItem from="1575913496040" duration="3260000" />
+      <workItem from="1575913496040" duration="3422000" />
+      <workItem from="1575997653797" duration="5643000" />
+      <workItem from="1579711294511" duration="808000" />
     </task>
     <task id="LOCAL-00001" summary="Atualização projeto">
       <created>1575763874111</created>
@@ -152,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575905008777</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="inseridos classes, e criado o método salvar cliente.">
+      <created>1575916870899</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575916870899</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,17 +176,18 @@
     <MESSAGE value="Atualização projeto, link linkedin" />
     <MESSAGE value="Colocado chat na page." />
     <MESSAGE value="Criei diretório client.&#10;Inseri menu e icone clientes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Criei diretório client.&#10;Inseri menu e icone clientes." />
+    <MESSAGE value="inseridos classes, e criado o método salvar cliente." />
+    <option name="LAST_COMMIT_MESSAGE" value="inseridos classes, e criado o método salvar cliente." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="265" y="86" key="CommitChangelistDialog2" timestamp="1575905007895">
+    <state x="265" y="86" key="CommitChangelistDialog2" timestamp="1575916869975">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="265" y="86" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1575905007895" />
-    <state x="420" y="246" key="FileChooserDialogImpl" timestamp="1575316074489">
+    <state x="265" y="86" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1575916869975" />
+    <state x="420" y="246" key="FileChooserDialogImpl" timestamp="1579712084994">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="420" y="246" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1575316074489" />
+    <state x="420" y="246" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1579712084994" />
     <state x="494" y="385" key="Github.ShareDialog" timestamp="1575763762827">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -183,17 +196,17 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="462" y="197" key="Github.UntrackedFilesDialog/0.0.1280.984@0.0.1280.984" timestamp="1575763772987" />
-    <state x="552" y="364" key="NewPhpFileDialog" timestamp="1575915321965">
+    <state x="552" y="364" key="NewPhpFileDialog" timestamp="1575999759619">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="552" y="364" key="NewPhpFileDialog/0.0.1280.984@0.0.1280.984" timestamp="1575915321965" />
+    <state x="552" y="364" key="NewPhpFileDialog/0.0.1280.984@0.0.1280.984" timestamp="1575999759619" />
     <state x="141" y="134" key="SettingsEditor" timestamp="1575762991344">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="141" y="134" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1575762991344" />
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1575905018184">
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1575916881434">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1575905018184" />
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1575916881434" />
   </component>
 </project>
